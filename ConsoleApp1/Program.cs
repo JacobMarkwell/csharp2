@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 class MainClass {
   public static void Main (string[] args) {
@@ -11,19 +11,19 @@ class MainClass {
     Console.WriteLine("Please input a  Capital letter grade");
     string grade = Console.ReadLine();
      if(grade == A) {
-        Console.WriteLine("4");
+        Console.WriteLine("GPA Point: 4");
      }  
      else if(grade == B){
-        Console.WriteLine("3");
+        Console.WriteLine("GPA Point: 3");
      }
      else if(grade == C){
-        Console.WriteLine("2");
+        Console.WriteLine("GPA Point: 2");
     }
     else if(grade == D){
-        Console.WriteLine("1");
+        Console.WriteLine("GPA Point: 1");
     }
     else if(grade == F){
-        Console.WriteLine("0");
+        Console.WriteLine("GPA Point: 0");
     }
   }
 
